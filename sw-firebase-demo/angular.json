@@ -121,8 +121,13 @@
               "devServerTarget": "sw-firebase-demo:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "sw-firebase-demo"
 }

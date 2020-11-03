@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "sw-demo-b79fa"
+  },
+  "targets": {
+    "sw-demo-b79fa": {
+      "hosting": {
+        "sw-firebase-demo": [
+          "sw-demo-b79fa"
+        ]
+      }
+    }
+  }
+}
